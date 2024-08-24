@@ -10,7 +10,7 @@ export class HeroComponent {
 
   public name: string = 'ironman';
   public age: number = 45;
-  public tel :number = 771;
+  public tel :string = '771-214-34-27';
 
   get capitalizedName():string{ /* los getrers se ven como propiedades */
     return this.name.toUpperCase();
